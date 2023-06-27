@@ -1,5 +1,7 @@
 # everypay-test-vue
 
+View on [Github Pages](https://neverwintermoon.github.io/everypay-test-vue/)
+
 ## Requirements (to run/build)
 
 - Node.js (I was using 20)
