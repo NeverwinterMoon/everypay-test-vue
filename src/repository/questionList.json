@@ -1,0 +1,102 @@
+[
+  {
+    "id": 0,
+    "question": "Which game features a plumber named Mario?",
+    "options": [
+      "The Legend of Zelda",
+      "Super Mario Bros.",
+      "Minecraft",
+      "Call of Duty"
+    ]
+  },
+  {
+    "id": 1,
+    "question": "In which game can you catch Pokémon?",
+    "options": [
+      "Grand Theft Auto V",
+      "Mortal Kombat",
+      "Pokémon Go",
+      "FIFA 22"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Which game franchise features an assassin named Ezio Auditore?",
+    "options": [
+      "Assassin's Creed",
+      "Halo",
+      "Final Fantasy",
+      "Uncharted"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Which game is set in a post-apocalyptic wasteland?",
+    "options": [
+      "The Sims 4",
+      "Fallout 4",
+      "Overwatch",
+      "Fortnite"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Which game introduced the iconic character Lara Croft?",
+    "options": [
+      "Tomb Raider",
+      "Super Smash Bros. Ultimate",
+      "Destiny 2",
+      "FIFA 21"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "In which game can you control a character named Geralt of Rivia?",
+    "options": [
+      "The Witcher 3: Wild Hunt",
+      "League of Legends",
+      "Animal Crossing: New Horizons",
+      "PlayerUnknown's Battlegrounds"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Which game is known for its building and exploration mechanics?",
+    "options": [
+      "Dark Souls III",
+      "Fortnite",
+      "The Last of Us Part II",
+      "Red Dead Redemption 2"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Which game is set in the world of Azeroth and features Horde and Alliance factions?",
+    "options": [
+      "World of Warcraft",
+      "Mass Effect: Andromeda",
+      "BioShock Infinite",
+      "Super Mario Odyssey"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "In which game can you find the character Kratos?",
+    "options": [
+      "God of War",
+      "Resident Evil Village",
+      "Fortnite",
+      "Assassin's Creed Valhalla"
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Which game is known for its brutally difficult gameplay and extensive boss battles?",
+    "options": [
+      "Dark Souls",
+      "Stardew Valley",
+      "Super Smash Bros. Ultimate",
+      "Apex Legends"
+    ]
+  }
+]
