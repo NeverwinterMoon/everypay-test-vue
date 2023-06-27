@@ -1,6 +1,6 @@
 import {expect, it} from 'vitest'
 // Use to visually debug any step of the test by calling debug()
-// import {debug} from 'vitest-preview'
+import {debug} from 'vitest-preview'
 
 import {render, screen, fireEvent, within} from '@testing-library/vue'
 import QuizView from './QuizView.vue'
@@ -29,6 +29,8 @@ it('increments value on click', async () => {
   expect(screen.queryByRole('button', {
     name: 'Call of Duty'
   })).toBeTruthy()
+
+  expect(screen.queryByText('Time left to answer: 5')).toBeTruthy()
 
   expect(queryForNextQuestionButton()).toBeFalsy()
 
@@ -80,10 +82,11 @@ it('increments value on click', async () => {
   expect(answer1ResultText01).toBeTruthy()
   expect(within(answer1ResultText01).queryByText('Grand Theft Auto V')).toBeTruthy()
 
-  const answer1ResultText02 = screen.queryByText('. The correct answer is . Your total score remains at')
+  const answer1ResultText02 = screen.queryByText('. The correct answer is . Your total score remains at . Your total lives remain at')
   expect(answer1ResultText02).toBeTruthy()
   expect(within(answer1ResultText02).queryByText('Pokémon Go')).toBeTruthy()
-  expect(within(answer1ResultText02).queryByText('1.')).toBeTruthy()
+  expect(within(answer1ResultText02).queryByText('1')).toBeTruthy()
+  expect(within(answer1ResultText02).queryByText('2')).toBeTruthy()
 
   expect(queryForNextQuestionButton()).toBeTruthy()
 
@@ -116,10 +119,10 @@ it('increments value on click', async () => {
 
   const yourScore = screen.queryByText('Your score:')
   expect(yourScore).toBeTruthy()
-  expect(within(yourScore).queryByText('2')).toBeTruthy()
+  expect(within(yourScore).queryByText('11')).toBeTruthy()
 
   const maximumScore = screen.queryByText('Maximum score:')
-  expect(within(maximumScore).queryByText('10')).toBeTruthy()
+  expect(within(maximumScore).queryByText('55')).toBeTruthy()
 
   const restartQuizButton = screen.queryByRole('button', {
     name: 'Restart the quiz'

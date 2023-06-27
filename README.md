@@ -42,3 +42,19 @@ requests in order not to expose answers when the questions are loaded.
 
 There is one test, `QuizView.spec.js`, it's more of a E2E test, as it tests the whole flow of the quiz, checking
 answering correctly and incorrectly, getting to the end and checking the results.
+
+The test is only slightly adjusted after implementing the deliverable 2, not covering timer running out and using hints,
+as this would already take more time to implement.
+
+## Deliverable 2
+
+Things implemented in scope of that:
+
+- Life system
+- Question weights
+- Hint feature
+
+## Bonus
+
+- Animations. Only for the list of answers when they are appearing.
+- Timer. Automatically fail if there is no answer within 5 seconds.

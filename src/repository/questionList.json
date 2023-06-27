@@ -1,6 +1,7 @@
 [
   {
     "id": 0,
+    "weight": 1,
     "question": "Which game features a plumber named Mario?",
     "options": [
       "The Legend of Zelda",
@@ -11,6 +12,7 @@
   },
   {
     "id": 1,
+    "weight": 2,
     "question": "In which game can you catch Pokémon?",
     "options": [
       "Grand Theft Auto V",
@@ -21,6 +23,7 @@
   },
   {
     "id": 2,
+    "weight": 3,
     "question": "Which game franchise features an assassin named Ezio Auditore?",
     "options": [
       "Assassin's Creed",
@@ -30,17 +33,8 @@
     ]
   },
   {
-    "id": 3,
-    "question": "Which game is set in a post-apocalyptic wasteland?",
-    "options": [
-      "The Sims 4",
-      "Fallout 4",
-      "Overwatch",
-      "Fortnite"
-    ]
-  },
-  {
     "id": 4,
+    "weight": 5,
     "question": "Which game introduced the iconic character Lara Croft?",
     "options": [
       "Tomb Raider",
@@ -50,7 +44,19 @@
     ]
   },
   {
+    "id": 9,
+    "weight": 10,
+    "question": "Which game is known for its brutally difficult gameplay and extensive boss battles?",
+    "options": [
+      "Dark Souls",
+      "Stardew Valley",
+      "Super Smash Bros. Ultimate",
+      "Apex Legends"
+    ]
+  },
+  {
     "id": 5,
+    "weight": 6,
     "question": "In which game can you control a character named Geralt of Rivia?",
     "options": [
       "The Witcher 3: Wild Hunt",
@@ -61,6 +67,7 @@
   },
   {
     "id": 6,
+    "weight": 7,
     "question": "Which game is known for its building and exploration mechanics?",
     "options": [
       "Dark Souls III",
@@ -71,6 +78,7 @@
   },
   {
     "id": 7,
+    "weight": 8,
     "question": "Which game is set in the world of Azeroth and features Horde and Alliance factions?",
     "options": [
       "World of Warcraft",
@@ -81,6 +89,7 @@
   },
   {
     "id": 8,
+    "weight": 9,
     "question": "In which game can you find the character Kratos?",
     "options": [
       "God of War",
@@ -90,13 +99,14 @@
     ]
   },
   {
-    "id": 9,
-    "question": "Which game is known for its brutally difficult gameplay and extensive boss battles?",
+    "id": 3,
+    "weight": 4,
+    "question": "Which game is set in a post-apocalyptic wasteland?",
     "options": [
-      "Dark Souls",
-      "Stardew Valley",
-      "Super Smash Bros. Ultimate",
-      "Apex Legends"
+      "The Sims 4",
+      "Fallout 4",
+      "Overwatch",
+      "Fortnite"
     ]
   }
 ]
